@@ -1,0 +1,3 @@
+:root{--wall:#0e1b18;--tile:#1d3a33}
+html,body{margin:0;height:100%;background:var(--wall);display:grid;place-items:center}
+canvas{width:min(100vw,177.7vh);aspect-ratio:16/9;background:#7be236;border:4px solid var(--tile);box-sizing:border-box;cursor:crosshair}
